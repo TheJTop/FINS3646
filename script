@@ -1,0 +1,49 @@
+Audience – anyone
+-	They know nothing about this…
+-	Brief context 
+
+Problem
+-	How its now being solved
+
+Solution
+-	Llm can help with this.
+-	Use llm to help classify categories.
+
+Establish why we need this solution over 5-6 sentences.
+
+ 
+
+ 
+Script:
+Hello, and welcome to our mail management tech spike
+
+Before Video:
+Starting with the Problem – Many teams at Macquarie receive hundreds of emails per day, all varying levels of urgency and task requirements. To manage this overwhelming inbox, some teams manually classify their incoming emails, taking hours per week and leaves them vulnerable to human error. 
+
+For example, in CGM, the NA Gas team receive an average of 8000 emails per month over 2022 and spend an estimated 280 hours per year manually categorising emails.
+
+We discovered that AI can help with this, and we came up with a solution that allows AI to automatically categorise emails into different desired classes.
+
+0 secs:
+
+This is a demonstration of our Mail Management tech-spike for the CGM Ops teams.
+
+This solution uses power automate to read emails from outlook and assign them categories.
+
+10 sec:
+
+To start with, we need to receive an email. For demonstration purposes I will send one to ourselves.
+This email is an actual email received by the NA Gas team.
+
+50 sec:
+The email data is taken from power automate and stored into SharePoint, so that our code can access it.
+ 
+1:15 sec: Here we are running the code and getting it to classify the email into different categories. In this step, the email is being classified by AI.
+
+For this team, they desired each email to be assigned into 3 categories.
+
+In production, the solution will be entirely automated and streamlined, however this wasn’t possible during the tech spike due to time constraints. 
+
+1:40 sec: Now the AI model has finished classifying the emails and has uploaded the categories back into sharepoint, where it can be read by power automate.
+
+2:15 sec: Here the emails have been successfully classified into outlook. The different tags allow you to filter by different categories. 
