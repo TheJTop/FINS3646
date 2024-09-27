@@ -1,1 +1,2 @@
-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
+
+I want to create a website. I am using VS Code to code in fyi. On the home screen of the website, have a button that says 'click here to play game.' Once the user clicks on the button, they are redirected to a different page, where they play the game naughts and crosses. The player with the crosses goes first. Once a player has won, pop up text saying '{crosses or naughts} player has won!'. Then also make a 'play again' button they can click on to restart the game. Please write all the scripts i need to do this. Before doing this, write out a step by step process that you must follow.
